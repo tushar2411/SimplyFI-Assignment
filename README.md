@@ -1,4 +1,7 @@
 # SimplyFI-Assignment
+# Tushar Khairnar
+# tusharykhairnar06@gmail.com
+# +918552030017
 
 # Question 1
 Write a python code for converting integer values to Indian currency notations, without
