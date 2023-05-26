@@ -83,32 +83,3 @@ for test_case in input_data:
      Print the result for the current test case
     print(result)
     ```
-    
- ![image](https://github.com/tushar2411/SimplyFI-Assignment/assets/97248089/5f77c657-9a9f-4513-a273-2dcee78c9562)
-    
-    
-    
-I define a function minimumShots that takes three parameters: N, K, and heights. This function is responsible for solving the problem for a single test case.
-
-Inside the minimumShots function, we initialize a variable shots to keep track of the number of players who need to get shot. This variable starts at 0.
-
-I iterate over each height in the heights list, which represents the heights of the players.
-
-For each player's height, we check if it is greater than K, the height of Gi-Hun and Ali. If a player's height is greater than K, it means they are taller than Gi-Hun and Ali, and they need to get shot. In this case, we increment the shots variable by 1.
-
-Additionally, if a player's height is equal to K, it means they have the same height as Gi-Hun and Ali. According to the problem statement, even if there are players with the same height, Ali will be visible in Gi-Hun's line of sight. Therefore, we break out of the loop at this point.
-
-After iterating through all the players' heights, we return the value of shots, which represents the minimum number of players who need to get shot in order for Ali to be visible to Gi-Hun.
-
-The code then defines an input_data list that contains multiple test cases. Each test case is represented as a tuple (N, K, heights), where N is the number of players, K is the height of Gi-Hun and Ali, and heights is the list of heights of the players between Gi-Hun and Ali.
-
-The code then loops over each test case in the input_data list.
-
-For each test case, it extracts the values of N, K, and heights from the tuple.
-
-It calls the minimumShots function with the extracted values to solve the problem for the current test case.
-
-The result is stored in the result variable.
-
-Finally, the result is printed for each test case.
-
