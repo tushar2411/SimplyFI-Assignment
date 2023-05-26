@@ -87,7 +87,10 @@ for test_case in input_data:
     ![image](https://github.com/tushar2411/SimplyFI-Assignment/assets/97248089/5f77c657-9a9f-4513-a273-2dcee78c9562)
     
     
-    We define a function minimumShots that takes three parameters: N, K, and heights. This function is responsible for solving the problem for a single test case.
+    
+    
+    
+I define a function minimumShots that takes three parameters: N, K, and heights. This function is responsible for solving the problem for a single test case.
 
 Inside the minimumShots function, we initialize a variable shots to keep track of the number of players who need to get shot. This variable starts at 0.
 
