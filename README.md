@@ -53,7 +53,7 @@ players standing between Gi-Hun and Ali in a straight line, with the ith player 
 in his line of sight.
 
 ```
-# Function to solve the problem for a single test case
+ Function to solve the problem for a single test case
 def minimumShots(N, K, heights):
     shots = 0
 
@@ -66,27 +66,25 @@ def minimumShots(N, K, heights):
     return shots
 
 
-# Input
+ Input
 input_data = [
     (4, 10, [2, 13, 4, 16]),
     (5, 8, [9, 3, 8, 8, 4]),
     (4, 6, [1, 2, 3, 4])
 ]
 
-# Solve the problem for each test case
+ Solve the problem for each test case
 for test_case in input_data:
     N, K, heights = test_case
 
-    # Call the function to solve the problem for the current test case
+     Call the function to solve the problem for the current test case
     result = minimumShots(N, K, heights)
 
-    # Print the result for the current test case
+     Print the result for the current test case
     print(result)
     ```
     
-    ![image](https://github.com/tushar2411/SimplyFI-Assignment/assets/97248089/5f77c657-9a9f-4513-a273-2dcee78c9562)
-    
-    
+ ![image](https://github.com/tushar2411/SimplyFI-Assignment/assets/97248089/5f77c657-9a9f-4513-a273-2dcee78c9562)
     
     
     
